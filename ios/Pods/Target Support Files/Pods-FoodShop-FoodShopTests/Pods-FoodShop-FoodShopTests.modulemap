@@ -1,0 +1,6 @@
+module Pods_FoodShop_FoodShopTests {
+  umbrella header "Pods-FoodShop-FoodShopTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
