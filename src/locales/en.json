@@ -69,12 +69,12 @@
     "text_shopping_now": "Shopping now",
     "text_go_shopping": "Go Shopping",
     "text_sale_percent": "Sale {{percent}}%",
-    "text_help": "Help & Info",
-    "text_search_country_mobile": "Type Here...",
-    "text_add": "Add",
-    "text_save": "Save",
-    "text_sales": "Sales",
-    "text_state": "State/Country",
+    "text_help" : "Help & Info",
+    "text_search_country_mobile" : "Type Here...",
+    "text_add" : "Add",
+    "text_save" : "Save",
+    "text_sales" : "Sales",
+    "text_state" : "State/Country",
     "text_location": "Location",
     "text_placholder_location": "Enter Location",
     "text_delivery_to": "DELIVERY TO",
@@ -129,8 +129,11 @@
   "catalog": {
     "text_view_all_category": "all >",
     "text_shop_name": "Shop {{name}}",
+
     "text_view_all": "View All",
+
     "text_refine": "Refine",
+
     "text_description": "Description",
     "text_information": "Additional information",
     "text_reviews": "Reviews",
@@ -138,8 +141,10 @@
     "text_stock": "Instock",
     "text_in_stock": "{{count}} in stock",
     "text_stock_out": "Out of stock",
+
     "text_placeholder_search": "Find your favorite food",
     "text_recent_search": "Recent Searches",
+
     "text_sort": "Sort by",
     "text_filter": "Filter by",
     "text_result": "Show result",
@@ -150,17 +155,24 @@
     "text_sort_price_high": "Sort by price: high to low",
     "text_category": "Categories",
     "text_price_range": "Price Ranges",
+
     "text_all_category": "All Categories",
+
     "text_count_review": "base on {{count}} reviews",
     "text_visit_star": "{{visit}} star",
     "text_write_review": "Write review",
+
     "text_product_review": "Product",
+
     "text_tab_star": "tab to star",
     "text_review_input_text": "Write your rating here",
     "text_review_input_name": "Name",
     "text_review_input_email": "Email",
+
     "text_related": "You may so like",
+
     "text_choose_cart": "Please choose the quantity of items you wish to add to your cart…",
+
     "text_store_featured": "Featured",
     "text_store_visit": "visit store",
     "text_store_detail_product": "Products",
@@ -168,8 +180,10 @@
     "text_store_detail_review": "Reviews",
     "text_store_detail_contact": "Contact",
     "text_store_detail_time": "Store time",
+
     "text_title_contact_store": "Contact Vendor",
     "text_button_contact_store": "Send Message",
+
     "text_most_featured": "Most Featured",
     "text_time_store": "Opening Hours",
     "text_preferred_merchants": "Preferred Merchants"
@@ -232,18 +246,22 @@
     "text_setting": "App Settings",
     "text_help_info": "Help & Info",
     "text_hotline": "Hotline",
+
     "text_order": "Orders & Returns",
     "text_password": "Password",
     "text_address": "Address Book",
     "text_edit_account": "Edit Account",
+
     "text_code_order": "Code order: {{code}}",
     "text_time_order": "Order: {{time}}",
     "text_status_order": "Status: ",
+
     "text_input_old_pass": "Current Password*",
     "text_input_new_pass": "New Password*",
     "text_input_confirm_pass": "Confirm Password*",
     "text_password_description": "Your new password must be at least 6 characters long",
     "text_button_password": "Save new password",
+
     "text_input_first_name": "First Name *",
     "text_input_last_name": "Last Name *",
     "text_input_country": "Country / Region *",
@@ -255,40 +273,48 @@
     "text_input_email": "Email",
     "text_input_phone": "Phone",
     "text_button_address": "Save Address",
+
     "text_language": "Language",
     "text_currency": "Currency",
     "text_config_advanced": "Config Advanced",
     "text_push_notification": "Push notification",
     "text_email_newsletter": "Email newsletter",
     "text_dark": "Dark Theme",
+
     "text_contact": "Contact us",
     "text_privacy": "Privacy policies",
     "text_term": "Terms Condition",
     "text_term_content": "Term content here",
     "text_about": "About us",
     "text_rate_app": "Rate This App",
+
     "text_name_contact": "Contact us",
+
     "text_description_development": "You can test your Store. Please input here",
     "text_note_development": "How to get Consumer key and Consumer secret",
     "text_button_development": "Connect Store",
+
     "text_privacy_title_1": "1. ABOUT THE FARFETCH GROUP AND THIS PRIVACY POLICY",
     "text_privacy_description_1": "This Privacy Policy sets out the information that we collect, the reasons for which we collect that information, and how we can use and share that information.",
     "text_privacy_title_2": "2. THIRD PARTY WEBSITES",
     "text_privacy_description_2": "Our Website can contain links to and from the websites of our partner boutiques, advertisers, and affiliates, amongst others. If you follow a link to any of these websites, please note that this Privacy Policy does not apply to those websites. We are not responsible or liable for the privacy policies or practices of those websites, so please check their policies before you submit any personal data to those websites.",
+
     "text_name_about": "Foddy React Native\nTemplate",
     "text_research": "Research",
     "text_about_description": "This Privacy Policy sets out the information that we collect, the reasons for which we collect that information, and how we can use and share that information.",
-    "text_description_edit_account": "This will be how your name will be displayed in the account section and in reviews.",
-    "text_info": "Order Information",
-    "text_order_note": "Order Note",
-    "text_subtotal": "Subtotal {{cost}}",
-    "text_tax": "Tax {{cost}}",
-    "text_shipping": "Shipping {{cost}}",
-    "text_discount": "Discount {{cost}}",
-    "text_refund": "Refund",
-    "text_shipping_info": "Shipping Information",
-    "text_billing_address": "Billing Address",
-    "text_note_order": "Note order"
+
+    "text_description_edit_account" : "This will be how your name will be displayed in the account section and in reviews.",
+
+    "text_info" : "Order Information",
+    "text_order_note" : "Order Note",
+    "text_subtotal" : "Subtotal {{cost}}",
+    "text_tax" : "Tax {{cost}}",
+    "text_shipping" : "Shipping {{cost}}",
+    "text_discount" : "Discount {{cost}}",
+    "text_refund" : "Refund",
+    "text_shipping_info" : "Shipping Information",
+    "text_billing_address" : "Billing Address",
+    "text_note_order" : "Note order"
   },
   "blog": {
     "text_lastest": "Lastest",
@@ -335,7 +361,7 @@
     "text_subtitle_order": "Keep track of your orders and returns",
     "text_title_download": "You have not file yet"
   },
-  "validators": {
+  "validators" : {
     "text_email": "E-Mail does not appear to be valid!",
     "text_password": "Password must be between 6 and 20 characters!",
     "text_first_name": "First Name must be between 1 and 32 characters!",

@@ -2,6 +2,7 @@ export const typeLayoutCategory = {
   grid: 'grid',
   carousel: 'carousel',
 };
+
 export const typeShowCategory = {
   grid: 'grid',
   carousel: 'row',
@@ -14,6 +15,8 @@ export const categoryListType = {
   category4: 'category4',
 };
 
-export const exclude_categories = [10];
+// Ensure result set excludes specific ids in page shop
+export const exclude_categories = [0];
 
-export const exclude__sidebar = {};
+// Ensure result set excludes specific ids in sidebar
+export const exclude_categories_sidebar = [0];

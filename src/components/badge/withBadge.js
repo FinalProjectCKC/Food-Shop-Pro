@@ -1,10 +1,10 @@
-import React from "react";
-import { StyleSheet, View } from "react-native";
+import React from 'react';
+import {StyleSheet, View} from 'react-native';
 
-import Badge from "./Badge";
+import Badge from './Badge';
 
-const withBadge = (value, options = {}) => (WrappedComponent) => {
-  const WithBadge = (props) => {
+const withBadge = (value, options = {}) => WrappedComponent => {
+  const WithBadge = props => {
     const {
       bottom,
       hidden = false,
@@ -13,14 +13,14 @@ const withBadge = (value, options = {}) => (WrappedComponent) => {
       ...badgeProps
     } = options;
 
-    let { right = -16, top = -1 } = options;
+    let {right = -16, top = -1} = options;
 
     if (!value) {
       right = -3;
       top = 3;
     }
 
-    const badgeValue = typeof value === "function" ? value(props) : value;
+    const badgeValue = typeof value === 'function' ? value(props) : value;
 
     return (
       <View style={StyleSheet.flatten([styles.container, containerStyle])}>
@@ -32,7 +32,7 @@ const withBadge = (value, options = {}) => (WrappedComponent) => {
             status="error"
             containerStyle={StyleSheet.flatten([
               styles.badgeContainer,
-              { bottom, left, right, top },
+              {bottom, left, right, top},
             ])}
             {...badgeProps}
           />
@@ -41,21 +41,21 @@ const withBadge = (value, options = {}) => (WrappedComponent) => {
     );
   };
 
-  WithBadge.displayName = `WithBadge(${
-    WrappedComponent.displayName || WrappedComponent.name || "Component"
-  })`;
+  WithBadge.displayName = `WithBadge(${WrappedComponent.displayName ||
+    WrappedComponent.name ||
+    'Component'})`;
 
   return WithBadge;
 };
 
 const styles = StyleSheet.create({
   badgeContainer: {
-    position: "absolute",
+    position: 'absolute',
   },
   container: {
-    alignItems: "center",
-    justifyContent: "center",
-    position: "relative",
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'relative',
   },
 });
 

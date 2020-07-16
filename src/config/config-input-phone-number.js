@@ -1,1 +1,1 @@
-export const INITIAL_COUNTRY = 'vn';
+export const INITIAL_COUNTRY = 'in';

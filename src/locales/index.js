@@ -1,3 +1,7 @@
-import {en} from 'src/en';
+import en from './en';
+import ar from './ar';
 
-export default './en';
+export default {
+  en,
+  ar,
+};

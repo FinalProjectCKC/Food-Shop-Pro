@@ -1,12 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import {
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity,
-  Platform,
-} from "react-native";
+import React from 'react';
+import PropTypes from 'prop-types';
+import {StyleSheet, Text, View, TouchableOpacity, Platform} from 'react-native';
 
 import {
   ViewPropTypes,
@@ -14,13 +8,13 @@ import {
   fonts,
   spacing,
   sizes,
-} from "src/components/config";
-import { renderNode } from "../helpers";
+} from 'src/components/config';
+import {renderNode} from '../helpers';
 
 const size = 16;
 const miniSize = 9;
 
-const Badge = (props) => {
+const Badge = props => {
   const {
     containerStyle,
     textStyle,
@@ -46,8 +40,7 @@ const Badge = (props) => {
           !element && styles.miniBadge,
           badgeStyle && badgeStyle,
         ])}
-        onPress={onPress}
-      >
+        onPress={onPress}>
         {element}
       </Component>
     </View>
@@ -63,17 +56,17 @@ Badge.propTypes = {
   Component: PropTypes.func,
   theme: PropTypes.object,
   status: PropTypes.oneOf([
-    "primary",
-    "success",
-    "warning",
-    "error",
-    "grey1",
-    "grey2",
+    'primary',
+    'success',
+    'warning',
+    'error',
+    'grey1',
+    'grey2',
   ]),
 };
 
 Badge.defaultProps = {
-  status: "primary",
+  status: 'primary',
 };
 
 const styles = {
@@ -82,7 +75,7 @@ const styles = {
     height: size,
     borderRadius: spacing.borderRadius.small,
     backgroundColor: theme.colors[status],
-    alignItems: "center",
+    alignItems: 'center',
   }),
   miniBadge: {
     paddingHorizontal: 0,
@@ -92,10 +85,10 @@ const styles = {
     borderRadius: miniSize / 2,
   },
   text: {
-    overflow: "hidden",
+    overflow: 'hidden',
     fontSize: sizes.base - 4,
     lineHeight: size,
-    color: "white",
+    color: 'white',
     paddingHorizontal: 5,
     ...fonts.medium,
     ...Platform.select({
@@ -107,5 +100,5 @@ const styles = {
   },
 };
 
-export { Badge };
-export default withTheme(Badge, "Badge");
+export {Badge};
+export default withTheme(Badge, 'Badge');
